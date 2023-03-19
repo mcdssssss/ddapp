@@ -1,0 +1,210 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/location/location",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/service/print/print",
+      "style": {
+        "navigationBarTitleText": "打印服务"
+      }
+    },
+    {
+      "path": "pages/service/errands/errands",
+      "style": {
+        "navigationBarTitleText": "跑腿服务"
+      }
+    },
+    {
+      "path": "pages/service/play/play",
+      "style": {}
+    },
+    {
+      "path": "pages/service/software/software",
+      "style": {
+        "navigationBarTitleText": "软件安装"
+      }
+    },
+    {
+      "path": "pages/service/clear/clear",
+      "style": {
+        "navigationBarTitleText": "清洁服务"
+      }
+    },
+    {
+      "path": "pages/service/move/move",
+      "style": {
+        "navigationBarTitleText": "搬家服务"
+      }
+    },
+    {
+      "path": "pages/service/repair/repair",
+      "style": {
+        "navigationBarTitleText": "维修服务",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/service/print/site",
+      "style": {
+        "navigationBarTitleText": "选择打印网点"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "个人中心"
+      }
+    },
+    {
+      "path": "pages/mine/address/address",
+      "style": {
+        "navigationBarTitleText": "我的地址",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/mine/address/edit",
+      "style": {
+        "navigationBarTitleText": "编辑地址"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "path": "pages/publish/publish",
+      "style": {
+        "navigationBarTitleText": "确认订单"
+      }
+    },
+    {
+      "path": "pages/mine/coupon/coupon",
+      "style": {
+        "navigationBarTitleText": "我的优惠券"
+      }
+    },
+    {
+      "path": "pages/order/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/order/order",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/mine/taker/register",
+      "style": {
+        "navigationBarTitleText": "申请成为接单员"
+      }
+    },
+    {
+      "path": "pages/order/cancel",
+      "style": {
+        "navigationBarTitleText": "取消订单理由"
+      }
+    },
+    {
+      "path": "pages/mine/taker/taker",
+      "style": {
+        "navigationBarTitleText": "接单员中心"
+      }
+    },
+    {
+      "path": "pages/mine/taker/charge",
+      "style": {
+        "navigationBarTitleText": "申请成为接单员"
+      }
+    },
+    {
+      "path": "pages/mine/taker/status",
+      "style": {
+        "navigationBarTitleText": "接单员状态"
+      }
+    },
+    {
+      "path": "pages/login/phone/phone",
+      "style": {
+        "navigationBarTitleText": "手机号登录"
+      }
+    },
+    {
+      "path": "pages/mine/update",
+      "style": {
+        "navigationBarTitleText": "修改个人信息"
+      }
+    },
+    {
+      "path": "pages/text/text",
+      "style": {
+        "navigationBarTitleText": "文本详情"
+      }
+    },
+    {
+      "path": "pages/mine/taker/cash/cash",
+      "style": {
+        "navigationBarTitleText": "提现"
+      }
+    },
+    {
+      "path": "pages/mine/taker/bank/bank",
+      "style": {
+        "navigationBarTitleText": "我的银行卡"
+      }
+    },
+    {
+      "path": "pages/mine/taker/bank/edit",
+      "style": {
+        "navigationBarTitleText": "编辑"
+      }
+    },
+    {
+      "path": "pages/mine/taker/cash/record",
+      "style": {
+        "navigationBarTitleText": "提现记录"
+      }
+    },
+    {
+      "path": "pages/plugins/activity/activitys",
+      "style": {
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/plugins/activity/detail",
+      "style": {
+        "navigationBarTitleText": "活动详情"
+      }
+    },
+    {
+      "path": "pages/plugins/activity/order/detail",
+      "style": {
+        "navigationBarTitleText": "订单详情"
+      }
+    },
+    {
+      "path": "pages/plugins/activity/order/orders",
+      "style": {
+        "navigationBarTitleText": "我报名的活动",
+        "enablePullDownRefresh": true
+      }
+    }
+  ]
+}
