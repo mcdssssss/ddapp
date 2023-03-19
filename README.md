@@ -18,8 +18,8 @@
 - 注意：体验版为商用版
 
 ## 开始开发
-
-## 开发及部署
+- [查看开发文档](https://gitee.com/landalfyao/ddapp/blob/master/DEV.md)
+- [配置参考](https://gitee.com/landalfyao/ddrun/wikis/pages?sort_id=5937464&doc_id=403865)
 
 ## 小程序页面
 
