@@ -1,15 +1,7 @@
-const env = process.env.NODE_ENV;
 export const API = () => {
-  if (env === "local") {
-    return "http://localhost:8001/api/";
-  } else if (env === "development") {
-    return "http://api.test.malimawai.cn/api/";
-  } else if (env === "prod") {
-    return "https://op.ddrun.malimawai.cn/api/";
-  }
-  return "https://op.ddrun.malimawai.cn/api/";
+  return "http://localhost:8001/api/";
 };
-export const SCHOOL_TYPE = "school" as "school" | "community"; // or community
+export const SCHOOL_TYPE = "school";
 
 export const AUTOCANCELTIME = 15 * 60 * 1000;
 export interface SchoolAddressOptions {
