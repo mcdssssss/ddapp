@@ -43,7 +43,6 @@ export class AdminRichtextController extends BaseController {
       Object.assign(dto, {
         richNo: this.nanoid(16),
         updatedBy: this.ctx.adminInfo.adminNo,
-        updatedFrom: 'admin',
       })
     );
     return this.returnInsert(result, '添加富文本');
@@ -84,12 +83,12 @@ export class AdminRichtextController extends BaseController {
   @Get('/list')
   @Validate()
   async list(@Query() dto: RichtextListDTO) {
-    let wheres = 'isDelete=0 and updatedFrom="admin"';
+    let wheres = 'isDelete=0 ';
     if (dto.richTitle) {
       wheres += ` and richTitle like '%${dto.richTitle}%'`;
     }
     if (dto.groupId === -1) {
-      wheres += ` and groupId = 0`;
+      wheres += ' and groupId = 0';
     } else if (dto.groupId > 0) {
       wheres += ` and groupId = ${dto.groupId}`;
     }

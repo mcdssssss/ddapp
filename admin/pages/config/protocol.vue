@@ -54,7 +54,7 @@ export default EditMixin.extend({
   methods: {
     async getConfig() {
       const result = await (this as any).$api.adminProtocolGet();
-      if (result.code === 200) {
+      if (result.code === 200 && result.data) {
         this.formData = result.data;
       }
     }

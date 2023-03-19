@@ -27,7 +27,7 @@
 </template>
 <script lang="ts">
 import Vue from 'vue';
-import GroupEdit from '@/components/material/GroupEdit.vue';
+import GroupEdit from './GroupEdit.vue';
 export default Vue.extend({
   components: {
     GroupEdit
@@ -63,7 +63,6 @@ export default Vue.extend({
       (this.type === 'file' && this.$store.state.file.list.length === 0) ||
       (this.type === 'richtext' && this.$store.state.file.richGroupList.length === 0)
     ) {
-      console.log(123);
       this.$store.dispatch('file/fetchFileGroupList', { groupType: this.type });
     }
   },
