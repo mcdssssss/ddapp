@@ -13,7 +13,7 @@
 
 ## 体验或咨询
 
-![qr](https://foruda.gitee.com/images/1663320185837588124/cce8fead_11018109.jpeg "自定义模板 (3).jpg")
+![qr](https://foruda.gitee.com/images/1679233769591308631/c915cd3b_11018109.jpeg "简约弥散风微信公众号首图封面.jpg")
 
 - 注意：体验版为商用版
 
