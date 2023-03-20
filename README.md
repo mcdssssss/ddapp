@@ -11,11 +11,7 @@
 
 跑腿、快递代取、陪练陪玩、软件安装、申请接单、用户下单、提现、物品重量计算等。
 
-## 体验或咨询
 
-![qr](https://foruda.gitee.com/images/1679233769591308631/c915cd3b_11018109.jpeg "简约弥散风微信公众号首图封面.jpg")
-
-- 注意：体验版为商用版
 
 ## 开始开发
 - [查看开发文档](https://gitee.com/landalfyao/ddapp/blob/master/DEV.md)
@@ -31,3 +27,8 @@
 ![输入图片说明](https://foruda.gitee.com/images/1679224868832200613/d4371d1a_11018109.png "q2.png")
 ![输入图片说明](https://foruda.gitee.com/images/1679224888050510841/0365f67a_11018109.png "q3.png")
 ![输入图片说明](https://foruda.gitee.com/images/1679224910889331030/3aabf24c_11018109.png "q4.png")
+## 体验或交流
+
+![qr](https://foruda.gitee.com/images/1679233769591308631/c915cd3b_11018109.jpeg "简约弥散风微信公众号首图封面.jpg")
+
+- 注意：体验版为商用版
