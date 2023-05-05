@@ -29,7 +29,7 @@
 
 ### 2.1 配置文件
 
-> 找到 /server/config/config.env.ts.bak 文件
+> 找到 /server/src/config/config.env.ts.bak 文件
 > 复制并粘贴到同目录下。命名为 config.local.ts
 > 打开文件进行配置
 
