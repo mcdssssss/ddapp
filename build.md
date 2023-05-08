@@ -120,3 +120,7 @@ yarn build-wx
 - 打开微信开发者工具
 - 导入项目，目录为 /miniprogram/dist/build/mp-weixin
 - 提交代码
+
+### 6.nginx配置
+- 注意只需查看管理员的即可
+[参考商用版nginx不熟教程](https://v0lxla43d1n.feishu.cn/wiki/wikcnu4pnYxBFoFwy2A7AYF6yBf)
