@@ -21,8 +21,10 @@ git clone https://gitee.com/landalfyao/ddapp
 
 ### 3.服务端
 
-#### 3.1配置文件
+#### 3.1 配置文件
+
 > 找到 /server/src/config/config.env.ts.bak 文件 复制并粘贴到同目录下。命名为 config.prod.ts 打开文件进行配置
+
 ```
 // 数据库配置
 ...
@@ -53,7 +55,7 @@ orm: {
   // task 和 bull中的redis 都填一样的即可
 ```
 
-#### 3.2安装依赖
+#### 3.2 安装依赖
 
 ```
 # 进入文件夹
@@ -63,7 +65,8 @@ cd ddrun
 yarn
 ```
 
-#### 3.3构建
+#### 3.3 构建
+
 ```
 yarn build
 ```
@@ -85,7 +88,9 @@ pm2 logs
 ```
 
 ### 4.管理员端
-#### 4.1安装依赖
+
+#### 4.1 安装依赖
+
 ```
 # 进入文件夹
 cd ddrun
@@ -93,14 +98,19 @@ cd ddrun
 # 安装依赖
 yarn
 ```
-#### 4.2构建
+
+#### 4.2 构建
+
 ```
 yarn build
 ```
-构建成功后会在admin/目录下生成 dist目录
+
+构建成功后会在 admin/目录下生成 dist 目录
 
 ### 5.在本地打开小程序
-#### 5.1修改配置文件
+
+#### 5.1 修改配置文件
+
 ```
 // 打开/miniprogram/src/utils/constrants.ts
 
@@ -108,19 +118,26 @@ export const API = () => {
   return "http://xxx.xx.xxx/api/"; //修改为您的服务器域名
 };
 ```
-#### 5.2安装依赖
+
+#### 5.2 安装依赖
+
 ```
 yarn
 ```
-#### 5.3构建
+
+#### 5.3 构建
+
 ```
 yarn build-wx
 ```
-#### 5.4上传代码
+
+#### 5.4 上传代码
+
 - 打开微信开发者工具
 - 导入项目，目录为 /miniprogram/dist/build/mp-weixin
 - 提交代码
 
-### 6.nginx配置
+### 6.nginx 配置
+
 - 注意只需查看管理员的即可
-[参考商用版nginx不熟教程](https://v0lxla43d1n.feishu.cn/wiki/wikcnu4pnYxBFoFwy2A7AYF6yBf)
+  [参考商用版 nginx 不熟教程](https://v0lxla43d1n.feishu.cn/wiki/wikcnu4pnYxBFoFwy2A7AYF6yBf)
