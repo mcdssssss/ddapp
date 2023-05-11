@@ -52,11 +52,9 @@
 </template>
 <script lang="ts">
 import Vue from 'vue';
-import { isSass } from '@/plugins/config';
 export default Vue.extend({
   data() {
     return {
-      isSass: isSass(),
       formData: {
         wxAppId: '',
         wxAppSecret: '',
