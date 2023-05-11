@@ -6,9 +6,6 @@ export class ConfigSchoolTypeDTO {
 }
 
 export class AppauthUpsertDTO {
-  @Rule(RuleType.string())
-  type?: 'school' | 'community';
-
   @Rule(RuleType.string().required())
   wxAppId: string;
 
@@ -17,36 +14,6 @@ export class AppauthUpsertDTO {
 
   @Rule(RuleType.string().required())
   wxUploadKey: string;
-
-  @Rule(RuleType.string().empty(''))
-  alipayAppId?: string;
-
-  @Rule(RuleType.string().empty(''))
-  alipayPublicKey?: string; // 公钥
-
-  @Rule(RuleType.string().empty(''))
-  alipayPrivateKey?: string; // 私钥
-
-  @Rule(RuleType.string().empty(''))
-  alipayEncryptKey?: string; // AES密钥
-
-  @Rule(RuleType.string().empty(''))
-  qqAppid?: string;
-
-  @Rule(RuleType.string().empty(''))
-  qqAppSecret?: string;
-
-  @Rule(RuleType.string().empty(''))
-  ttAppid?: string;
-
-  @Rule(RuleType.string().empty(''))
-  ttAppSecret?: string;
-
-  @Rule(RuleType.string().empty(''))
-  ttSalt?: string;
-
-  @Rule(RuleType.string().empty(''))
-  ttToken?: string;
 }
 
 export class MapKeyDTO {
