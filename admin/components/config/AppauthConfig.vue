@@ -58,20 +58,9 @@ export default Vue.extend({
     return {
       isSass: isSass(),
       formData: {
-        type: '',
         wxAppId: '',
         wxAppSecret: '',
-        wxUploadKey: '',
-        alipayAppId: '',
-        alipayPublicKey: '',
-        alipayPrivateKey: '',
-        alipayEncryptKey: '',
-        qqAppid: '',
-        qqAppSecret: '',
-        ttAppid: '',
-        ttAppSecret: '',
-        ttSalt: '',
-        ttToken: ''
+        wxUploadKey: ''
       },
       rules: {
         wxAppId: [{ required: true, message: '输入小程序ID', trigger: 'blur' }],
