@@ -69,16 +69,11 @@ export default Vue.extend({
     };
   },
   mounted() {
-    if (this.$store.state.version) {
-      this.formData.type = this.$store.state.version;
-    }
     this.getauth();
   },
   methods: {
     async getauth() {
-      const result = await (this as any).$api.adminAppauthGet({
-        schoolType: this.$store.state.version
-      });
+      const result = await (this as any).$api.adminAppauthGet();
       if (result.code === 200 && result.data) {
         this.formData = Object.assign(this.formData, result.data);
       }
